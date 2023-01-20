@@ -1,5 +1,4 @@
 # lspann.github.io
-Web Code
 
  # Projects #
  * HTML
