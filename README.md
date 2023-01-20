@@ -23,7 +23,7 @@
  * ICA15
  
  # Weekly Assignments #
- * WA1
+ * [WA1](https://lspann.github.io/wa/wa1.html "WA1")
  * WA2
  * WA3
  * WA4
