@@ -24,7 +24,7 @@
  
  # Weekly Assignments #
  * [WA1](https://lspann.github.io/wa/wa1.html "WA1")
- * WA2
+ * [WA2](https://lspann.github.io/wa/wa2.html "WA2")
  * WA3
  * WA4
  * WA5
