@@ -1,4 +1,4 @@
-# [lspann.github.io] (https://lspann.github.io/ "lspann.github.io")
+# [lspann.github.io](https://lspann.github.io/ "lspann.github.io")
 
  # Projects #
  * HTML
