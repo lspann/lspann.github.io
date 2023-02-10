@@ -26,7 +26,7 @@
  * [WA1](https://lspann.github.io/wa/wa1.html "WA1")
  * [WA2](https://lspann.github.io/wa/wa2.html "WA2")
  * [WA3](https://lspann.github.io/wa/wa3.html "WA3")
- * WA4
+ * [WA4](https://lspann.github.io/wa/wa4.html "WA4")
  * WA5
  * WA6 
  * WA7
