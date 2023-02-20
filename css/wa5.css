@@ -24,10 +24,10 @@ address {
   right: 20mm;
 }
 
-h1 {
-  position: center;
-  padding: 50px;
-  background-image: url(/wa/img/transparentesportslogo.png) no-repeat;
+h1.overlay {
+  position: left;
+  padding: 90px;
+  background: url(/wa/img/transparentesportslogo.png) no-repeat;
   background-size: 300px;
   filter: drop-shadow(3px 3px 3px black);
 }
