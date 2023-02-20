@@ -24,7 +24,7 @@ address {
   right: 20mm;
 }
 
-h1.overlay {
+p.overlay {
   position: left;
   padding: 90px;
   background: url(/wa/img/transparentesportslogo.png) no-repeat;
