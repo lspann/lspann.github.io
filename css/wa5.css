@@ -26,17 +26,9 @@ address {
 
 h1 {
   position: center;
-  top: 12mm;
-  left: 20mm;
-  width: 128px;
-  height: 128px;
-  font-size: 20px;
-  letter-spacing: 1px;
-  text-align: center;
-  padding: 44px 0;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-image: url(/wa/img/overlayesportslogo.png);
+  padding: 50px;
+  background-image: url(/wa/img/transparentesportslogo.png) no-repeat;
+  background-size: 300px;
   filter: drop-shadow(3px 3px 3px black);
 }
 
