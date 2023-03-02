@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(44, 1, 44);
+    font-family: monospace;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(24, 109, 81);
+}
+
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover{
+    background-color: aquamarine;
+}
+
+img{
+    width:500px;
+    height: auto;
+}
+
+#red-ball{
+    background-color: greenyellow;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+
+    animation-name: red-ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes red-ball{
+    0%{background-color:greenyellow; height: 20px;}
+    50%{background-color:cyan; height: 30px;}
+    100%{background-color:greenyellow; height: 500px;}
+}
