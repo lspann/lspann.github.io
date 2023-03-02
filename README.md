@@ -12,7 +12,7 @@
  * [ICA4](https://lspann.github.io/ica/ica4.html "ICA4")
  * [ICA5](https://lspann.github.io/ica/ica5.html "ICA5")
  * [ICA6](https://lspann.github.io/ica/ica6/ica6-part2.html "ICA6") 
- * ICA7
+ * [ICA7](https://lspann.github.io/ica/ica7/ica7.html "ICA7")
  * ICA8
  * ICA9
  * ICA10
@@ -29,7 +29,7 @@
  * [WA4](https://lspann.github.io/wa/wa4.html "WA4")
  * [WA5](https://lspann.github.io/wa/wa5.html "WA5")
  * [WA6](https://lspann.github.io/wa/wa6/index.html "WA6")
- * WA7
+ * [WA7](https://lspann.github.io/wa/wa7/wa7.html "WA7")
  * WA8
  * WA9
  * WA10
