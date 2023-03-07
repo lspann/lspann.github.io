@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 38, 38);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(181, 196, 180);
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+nav a:hover{
+    background-color: rgb(215, 221, 222);
+}
+
+img{
+    width:200px;
+    height: auto;
+    float: left;
+}

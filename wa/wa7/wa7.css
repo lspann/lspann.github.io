@@ -10,7 +10,7 @@ nav{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    height:20px;
+    height: 20px;
     background-color: rgb(24, 109, 81);
 }
 
