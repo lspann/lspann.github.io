@@ -41,14 +41,41 @@ img{
     margin-right: auto;
 }
 
-.grid{
+/* .grid{
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
     column-count: 1;
     display: flex;
+} */
+
+.logo{    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 5vh 5vh 5vh;
+    grid-gap: 5px;
+    list-style: none;
+    margin: .1px;
+    padding: 0;
+    column-count: 3;
+    size: auto;
+}
+
+#git{
+    size:auto;
+}
+
+#link{
+    size:auto;
+}
+
+#resume{
+    size:auto;
 }
 
 h2{
  text-align: center;
+}
+
+@media screen and (max-width: 500px){   
 }
