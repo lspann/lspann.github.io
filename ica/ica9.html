@@ -14,56 +14,6 @@
             width: 250px;
             font-size: 50px;
         }
-
-        ul{
-            list-style: none;
-            display: flex;
-            justify-content: center;
-        }
-
-        ul li{
-            width: 60px;
-            height:60px;
-            background-color: #fff;
-            color: #858585;
-            font-size: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 40px 50px rgba(0,0,0,.2);
-            /* transtition: transform 0.3s ease-in-out; */
-        }
-
-        ul li:first-child{
-            border-radius: 5px 0 0 5px;
-        }
-
-        ul li:last-child{
-            border-radius: 0 5px 5px 0;
-        }
-
-        ul:hover li:nth-child(odd){
-            transform: skewY(15deg);
-        }
-
-        ul:hover li:nth-child(even){
-            transform: skewY(-15deg);
-        }
-
-        @keyframes rotate{
-            to{
-                transform: rotate(0.5 turn);
-            }
-        }
-
-        .dashed-loader{
-            margin-left: 100px;
-            width: 100px;
-            --b: 16px;
-            aspect-ratio: 1;
-            border-radius: 50%;
-            
-        }
         
     </style>
     
@@ -79,32 +29,33 @@
         <input type="submit" value="Submit guess" class="guessSubmit">
     </div>
 
-    <div class="dashed-loader"></div>
+    <div class="container">
+        <div class="stc">
+            <div class="circle"></div>
+        </div>
+    </div>
 
-    <section>
-        <ul>
-            <li>L</li>
-            <li>I</li>
-            <li>Z</li>
-            <li>Z</li>
-            <li>Y</li>
-        </ul>
-    </section>
+    <p id="header" style="font-weight: bold; font-size: 15px;">Input Text</p>
+    <div class="card-body">
+        <input type="text" onchange="edit_text('header', this.value)"/>
+    </div>
+
 
     <script>
+
         console.log("Hello, World!");
-        let btn = document.querySelector("#button");
+        let button = document.querySelector("#button");
         // console.log(btn);
         
         function changeBtn(){
             // console.log("This worked!");
-            btn.textContent = "TEST";
-            btn.style.backgroundColor = "darkmagenta";
-            btn.style.border = "2px solid magenta";
-            btn.style.color = "white";
+            button.textContent = "TEST";
+            button.style.backgroundColor = "darkmagenta";
+            button.style.border = "2px solid magenta";
+            button.style.color = "white";
         }
 
-        btn.addEventListener('click', changeBtn);
+        button.addEventListener('click', changeBtn);
 
         function checkGuess(){
             // alert('I am a placeholder');
@@ -114,10 +65,15 @@
             alert(value);
         }
 
-        let guessBtn = document.querySelector(".guessSubmit");
+        let guessButton = document.querySelector(".guessSubmit");
         let userGuess = document.querySelector(".guessField");
         // console.log(guessBtn);
-        guessBtn.addEventListener('click', checkGuess);
+        guessButton.addEventListener('click', checkGuess);
+
+        function edit_text(id, text){
+            document.getElementById(id).innerHTML = text;
+        }
+        
     </script>
     
 </body>
