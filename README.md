@@ -2,7 +2,7 @@
 
  # Projects #
  * [HTML](https://lspann.github.io/HTML/html-midterm/page5.html "HTML")
- * CSS
+ * [CSS](https://lspann.github.io/index.html "CSS")
  * JS
  
  # In-Class Assignments #
@@ -14,8 +14,8 @@
  * [ICA6](https://lspann.github.io/ica/ica6/ica6-part2.html "ICA6") 
  * [ICA7](https://lspann.github.io/ica/ica7/ica7.html "ICA7")
  * ICA8
- * ICA9
- * ICA10
+ * [ICA9](https://lspann.github.io/ica/ica9.html "ICA9")
+ * [ICA10](https://lspann.github.io/ica/ica10.html "ICA10")
  * ICA11
  * ICA12
  * ICA13
