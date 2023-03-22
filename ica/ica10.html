@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .msgBox{
+            width: 242px;
+        }
+
+        .msgBox p {
+            padding-left: 82px;
+            background-position: 25px center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="msgBox">
+        <p>This is a message box</p>
+        <button>x</button>
+    </div>
+    <script>
+        alert('This is a message');
+
+        const btn = document.querySelector('button');
+
+        btn.addEventListener('click', ()=> displayMessage('Woo, this is a different message!'));
+
+        function displayMessage(msgText, msgType){
+            const body = document.body;
+
+            const panel = document.createElement('div');
+            panel.setAttribute('class','msgBox');
+            body.appendChild(panel);
+
+            const msg = document.createElement('p');
+            msg.textContext = msgText;
+            panel.appendChild(msg);
+
+            const closeBtn = document.createElement('button');
+            closeBtn.textContext = 'x';
+            panel.appendChild(closeBtn);
+
+            closeBtn.addEventListener('click', () => panel.parentNode.removeChild(panel));
+
+            displayMessage();
+
+            if (msgType === 'warning') {
+                msg.style.backgroundImage = 'url(icons/warning.png)';
+                panel.style.backgroundColor = 'red';
+            } else if (msgType === 'chat') {
+                msg.style.backgroundImage = 'url(icons/chat.png)';
+                panel.style.backgroundColor = 'aqua';
+            } else {
+                msg.style.paddingLeft = '20px';
+            }      
+        }
+    </script>
+</body>
+</html>
