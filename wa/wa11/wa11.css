@@ -12,7 +12,7 @@ html {
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-    background-color: #c9bd95;
+    background-color: #45c1ff;
   }
   
   .app {
@@ -73,12 +73,12 @@ html {
   }
   
   .new-quote {
-    background-color: #4A2B0F;
+    background-color: #ccea56;
     margin-bottom: 15px;
   }
   
   .new-quote:hover {
-    background-color: #6d3b0e;
+    background-color: #83973d;
   }
   
   .new-quote:disabled {

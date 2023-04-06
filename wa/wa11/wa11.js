@@ -4,8 +4,7 @@ button.addEventListener('click', getQuote);
 // const  answerbutton = document.querySelector("js-tweet");
 // answerButton.addEventListener('click', showAnswer);
 
-const endpoint = "https://trivia.cyberwisp.com/getrandomchristmasquestion";
-
+const endpoint = "https://geek-jokes.sameerkumar.website/api?format=json"
 async function getQuote() {
     // console.log("It works!");
     try {
@@ -18,11 +17,11 @@ async function getQuote() {
         displayQuote(json.question)
         // console.log(json.answer);
 
-       showAnswer(json.answer);
+       showAnswer(json.joke);
     }
     catch (err) {
         consolde.log(err);
-        alert('Failed to fetch new trivia');
+        alert('Failed to fetch new joke');
     }
 }
 
