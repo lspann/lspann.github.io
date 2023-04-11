@@ -33,7 +33,7 @@
  * WA8
  * WA9
  * WA10
- * WA11
+ * [WA11](https://lspann.github.io/wa/wa11/wa11.html "WA11")
  * WA12 
  * WA13
  * WA14
