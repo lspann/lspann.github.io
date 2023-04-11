@@ -17,7 +17,7 @@
  * [ICA9](https://lspann.github.io/ica/ica9.html "ICA9")
  * [ICA10](https://lspann.github.io/ica/ica10.html "ICA10")
  * [ICA11](https://lspann.github.io/ica/ica11.html "ICA11")
- * ICA12
+ * [ICA12](https://lspann.github.io/ica/ica12.html "ICA12")
  * ICA13
  * ICA14
  * ICA15
