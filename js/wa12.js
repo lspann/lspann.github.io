@@ -77,15 +77,28 @@ console.log(obj["employees"]);
 console.log(updatedObj);
 
 //Problem 6
-const workStatus = obj.employees.map((employees) => {
-    let wfh = "false";
-    if (employees.firstName == 'Anna' || employees.firstName == 'Sam') {
-        wFh = "true";
-    }
-    return {
-        ...employees,
-        wFh: wfh,
-    };
-});
 
-console.log(workStatus);
+// const workStatus = obj.employees.map((employees) => {
+//     let wfh = "false";
+//     if (employees.firstName == 'Anna' || employees.firstName == 'Sam') {
+//         wFh = "true";
+//     }
+//     return {
+//         ...employees,
+//         wFh: wfh,
+//     };
+// });
+
+// console.log(workStatus);
+
+let ws = '{"WorkStatus" : [' +
+    '{"firstName":"Sam" , "department":"Tech" , "designation":"Manager" , "salary":"40000" , "raiseEligiblity":"true" , "wfh":"true"},' + 
+    '{"firstName":"Mary" , "department":"Finance" , "designation":"Trainee" , "salary":"18500", "raiseEligiblity":"true" , "wfh":"false"},' + 
+    '{"firstName":"Bill" , "department":"HR" , "designation":"Executive" , "salary":"21200" , "raiseEligiblity":"false" , "wfh":"false"}, ' +
+    '{"firstName":"Anna" , "department":"Tech" , "designation":"Executive" , "salary":"25600", "raiseEligiblity":"false" , "wfh":"true"} ' +
+    '] }]}';
+
+    const wsObj = JSON.parse(text);
+
+    // console.log(obj);
+    console.log(wsObj["WorkStatus"])
