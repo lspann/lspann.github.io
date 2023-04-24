@@ -4,32 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minesweeper Volume</title>
 
     <link rel="stylesheet" href="/css/wa13.css">
     <script defer src="/js/wa13.js"></script>
 </head>
 <body>
-    <div>
+    <!--This is my new volume changer-->
+    <h1>Mines: <span id="mines-count">0</span></h1>
+    <div id="board">
+        <!-- <div class="x1 tile-clicked"></div> -->
+    </div>
+    <br>
+    <button id="flag-button">🚩</button>
+    <br>
+    <div id="js_timer">
+        <div id="timer">
+            00:00
+        </div>
+        <button onclick="pause()">When you are done Pause to get your new volume!</button>
+    </div>
+
+
+    <!--These are the old volume changers. Keeping for refrence-->
+    <!-- <div>
         <p>Please select the volume you'd like.</p>
         <p class="output">50</p>
-    </div>
-    <div> <!-- plus/minus volume changer-->
-        <form>
+    </div> -->
+    <!-- <div> <!-- plus/minus volume changer-->
+        <!-- <form>
             <input class="minus-button" type="button" name="minus-button" value="MINUS">
             <input class="plus-button" type="button" name="plus-button" value="PLUS">
             <input class="reset-button" type="button" name="reset-button" value="RESET">
             <input class="random-button" type="button" name="random-button" value="RANDOM">
             <input class="submit-button" type="button" name="submit-button" value="SUBMIT">
-        </form>
-    </div>
-    <div> <!--This will be a slider-->
-        <div class="slidecontainer">
+        </form> -->
+    <!-- </div> -->
+    <!-- <div> <!--This will be a slider-->
+        <!-- <div class="slidecontainer">
             <p>Please select the volume you'd like.</p>
             <input type="range" min="0" max="100" class="slider" id="myRange">
             <input class="slider-submit-button" type="button" name="slider-submit-button" value="SUBMIT">
             <p class="slider-output"></p>
-        </div>
-    </div>
+        </div> -->
+    <!-- </div> -->
 </body>
 </html>
