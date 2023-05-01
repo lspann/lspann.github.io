@@ -36,5 +36,5 @@
  * [WA11](https://lspann.github.io/wa/wa11/wa11.html "WA11")
  * [WA12](https://lspann.github.io/wa/wa12.html "WA12") 
  * [WA13](https://lspann.github.io/wa/wa13.html "WA13")
- * WA14
+ * [WA14](https://lspann.github.io/wa/wa14.html "WA14")
  * WA15
