@@ -5,34 +5,34 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <!-- <link rel="stylesheet" href="index.scss"> -->
         <title>Lizzy Spann</title>
     </head>
     <body>
-        <h1>Hello, my name is Lizzy!</h1> 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="">About Me</a>
-            <a href="">Current Projects</a>
-            <a href="">Dance!</a>
-            <a href="">Socials</a>
-        </nav>
+        <h1>Hello friend! Welcome to my page.</h1>
 
-        <img src="/wa/img/lizzygradpic.jpg" alt="graduation picture">
+        <div id="preloader">
+            <canvas id="container" width="200" height="200"></canvas>
+        </div>
 
-        <aside>
-            <h2>My name is Elizabeth Spann. I am an undergraduate at CU Boulder studying the CTD/ATLAS major. Hopefully graduating in 2025 to pursure my dream in many fields but most predominantly Game Design/ Graphics!</h2>
+        <div class="cursor"></div>
 
-            <ul class="logo">
-                <li>
-                    <a id="git" href="https://github.com/lspann/lspann.github.io" target="_blank"> <img src="/wa/img/iconmonstr-github-1.svg" alt="github"></a>
-                </li>
-                <li>
-                    <a id="link" href="https://www.linkedin.com/in/elizabeth-spann-99107622a/" target="_blank"><img src="/wa/img/linkedinlogo.png" alt="linkedin"></a>
-                </li>
-                <li>
-                    <a id="resume" href="https://docs.google.com/document/d/1WuOE3CXo2cbCnV51h1m5FAjgC5Np8-x7s7EzgcwQLPs/edit?usp=sharing" target="_blank"><img src="/wa/img/resumelogo.png" alt="resume"></a>
-                </li>
-            </ul>
-        </aside>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">Current Projects</a></li>
+            <li><a href="dance.html">Dance!</a></li>
+            <li><a href="photography.html">Photography</a></li>
+
+            <span class="toggleMenu"></span>
+        </ul>
+
+        <img src="/wa/img/lizzygradpic.jpg" alt="graduation picture">   
+
+        <div class="container">
+            <h1 class="heading" data-target-resolver></h1>
+        </div>
+
+        <script src="index.js" type="text/javascript"></script>
     </body>
 </html>
