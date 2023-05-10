@@ -3,7 +3,7 @@
  # Projects #
  * [HTML](https://lspann.github.io/HTML/html-midterm/page5.html "HTML")
  * [CSS](https://lspann.github.io/index.html "CSS")
- * JS
+ * [JS](lizzyspann.me "JS")
  
  # In-Class Assignments #
  * [ICA1](https://docs.google.com/document/d/1DLuesGX1I4h-6sjuBBo5CsX1PqTONPrf0W37YZ2KMfY/edit?usp=sharing "ICA1")
@@ -20,7 +20,7 @@
  * [ICA12](https://lspann.github.io/ica/ica12.html "ICA12")
  * [ICA13](https://lspann.github.io/ica/ica13.html "ICA13")
  * [ICA14](https://api.mapbox.com/styles/v1/lizzyspann/clgwgi34m003z01r88jux2kyo.html?title=view&access_token=pk.eyJ1IjoibGl6enlzcGFubiIsImEiOiJjbGg0ZG9lZHExdzl2M3FydGhtbzJ4M2thIn0.dq7z_fkMxemr-3CeluCRPQ&zoomwheel=true&fresh=true#5.59/52.729/-2.441 "ICA14")
- * ICA15
+ <!-- * ICA15 -->
  
  # Weekly Assignments #
  * [WA1](https://lspann.github.io/wa/wa1.html "WA1")
@@ -37,4 +37,4 @@
  * [WA12](https://lspann.github.io/wa/wa12.html "WA12") 
  * [WA13](https://lspann.github.io/wa/wa13.html "WA13")
  * [WA14](http://lizzyspann.me/wa/wa14.html "WA14")
- * WA15
+ <!-- * WA15 -->
