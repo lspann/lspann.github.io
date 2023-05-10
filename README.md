@@ -3,7 +3,7 @@
  # Projects #
  * [HTML](https://lspann.github.io/HTML/html-midterm/page5.html "HTML")
  * [CSS](https://lspann.github.io/index.html "CSS")
- * [JS](lizzyspann.me "JS")
+ <!-- * [JS](https://lizzyspann.me/ "JS") -->
  
  # In-Class Assignments #
  * [ICA1](https://docs.google.com/document/d/1DLuesGX1I4h-6sjuBBo5CsX1PqTONPrf0W37YZ2KMfY/edit?usp=sharing "ICA1")
