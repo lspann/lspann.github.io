@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     background-color: #2e2e2e;
     font-style: 'monospaced';
+    margin: 30px;
 }
 
 h1{
@@ -35,10 +36,9 @@ img{
 
 .navigation
 {
-    position: center;
     width: 1px;
     height: 50px;
-    background: #fff;
+    background: #2e2e2e;
     /* border-radius: %; */
     transition: 0.5s;
     transition-delay: 0.5s;
@@ -128,7 +128,7 @@ img{
 
 .navigation li a{
     text-decoration: none;
-    color: #333;
+    color: #e6e6e6;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     padding: 5px 10px;
