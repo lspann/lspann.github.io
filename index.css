@@ -71,7 +71,7 @@ img{
 .navigation.active .toggleMenu{
     background: #c1ff72;
     transition-delay: 0s;
-    transform:  translateY(60px);
+    transform:  translateY(40px);
     width: 30px;
     height: 30px;
     /* box-shadow: 0 10px 15px rgba(0,0,0,0.05); */
