@@ -1,34 +1,32 @@
 body{
-    /* display: flex; */
-    justify-content: center;
-    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: rows; */
     background-color: #2e2e2e;
     font-style: 'monospaced';
-}
-
-iframe{
-    /* position: center; */
-    /* justify-content: ; */
-    /* align-items: center; */
-    /* display: table-column; */
-    padding-left: 340px;
-    padding-right: 340px;
-    padding-bottom: 5px;
-    justify-content: space-evenly;
+    margin: 40px;
+    /* cursor: none; */
 }
 
 h1{
     color: #63a908;
     text-align: center;
     font-size: 50px;
+    /* text-shadow: #ffffff 1px 0 10px; */
 }
 
 h2{
-    align-items: center;
     color: #e6e6e6;
-    /* text-align: center; */
+    text-align: center;
+    /* text-shadow: #ffffff 1px 0 10px; */
     font-size: 25px;
-    width: 400px
+}
+
+iframe{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
 }
 
 /* navigation bar */
@@ -37,7 +35,7 @@ h2{
     position: center;
     width: 1px;
     height: 50px;
-    background: #fff;
+    background: #2e2e2e;
     /* border-radius: %; */
     transition: 0.5s;
     transition-delay: 0.5s;
@@ -70,7 +68,7 @@ h2{
 .navigation.active .toggleMenu{
     background: #c1ff72;
     transition-delay: 0s;
-    transform:  translateY(60px);
+    transform:  translateY(40px);
     width: 30px;
     height: 30px;
     /* box-shadow: 0 10px 15px rgba(0,0,0,0.05); */
@@ -127,7 +125,7 @@ h2{
 
 .navigation li a{
     text-decoration: none;
-    color: #333;
+    color: #e6e6e6;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     padding: 5px 10px;
@@ -138,13 +136,6 @@ h2{
 .navigation li a:hover{
     background: #63a908;
     color: #e6e6e6;
-}
-
-.main{
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 @media screen and (max-width: 500px){   

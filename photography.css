@@ -4,8 +4,7 @@ body{
     align-items: center; */
     flex-direction: column;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #dfffd6;
-    cursor: none;
+    background-color: #2e2e2e;
 }
 
 h1{
@@ -30,7 +29,7 @@ h2{
     position: center;
     width: 1px;
     height: 50px;
-    background: #fff;
+    background: #2e2e2e;
     /* border-radius: %; */
     transition: 0.5s;
     transition-delay: 0.5s;
@@ -63,7 +62,7 @@ h2{
 .navigation.active .toggleMenu{
     background: #c1ff72;
     transition-delay: 0s;
-    transform:  translateY(60px);
+    transform:  translateY(40px);
     width: 30px;
     height: 30px;
     /* box-shadow: 0 10px 15px rgba(0,0,0,0.05); */
@@ -120,7 +119,7 @@ h2{
 
 .navigation li a{
     text-decoration: none;
-    color: #333;
+    color: #e6e6e6;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     padding: 5px 10px;
