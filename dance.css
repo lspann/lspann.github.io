@@ -3,7 +3,7 @@ body{
     /* align-items: center; */
     /* flex-direction: rows; */
     background-color: #2e2e2e;
-    font-style: 'monospaced';
+    font-style: 'sans serif';
     margin: 40px;
     /* cursor: none; */
 }
