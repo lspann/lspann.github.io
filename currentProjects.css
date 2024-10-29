@@ -1,11 +1,25 @@
 body{
-    display: flex;
     /* justify-content: center;
     align-items: center; */
-    flex-direction: column;
     background-color: #2e2e2e;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    cursor: none;
+}
+
+h1{
+    color: #63a908;
+    text-align: center;
+    font-size: 50px;
+    /* text-shadow: #ffffff 1px 0 10px; */
+}
+
+h2{
+    align-items: center;
+    text-align: center ;
+    color: #e6e6e6;
+    text-align: center;
+    /* text-shadow: #ffffff 1px 0 10px; */
+    font-size: 25px;
+    width: 400px
 }
 
 .navigation
@@ -13,7 +27,7 @@ body{
     position: center;
     width: 1px;
     height: 50px;
-    background: #fff;
+    background: #2e2e2e;
     /* border-radius: %; */
     transition: 0.5s;
     transition-delay: 0.5s;
@@ -46,7 +60,7 @@ body{
 .navigation.active .toggleMenu{
     background: #c1ff72;
     transition-delay: 0s;
-    transform:  translateY(60px);
+    transform:  translateY(40px);
     width: 30px;
     height: 30px;
     /* box-shadow: 0 10px 15px rgba(0,0,0,0.05); */
@@ -103,7 +117,7 @@ body{
 
 .navigation li a{
     text-decoration: none;
-    color: #333;
+    color: #e6e6e6;
     text-transform: uppercase;
     letter-spacing: 0.12em;
     padding: 5px 10px;
@@ -121,22 +135,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-h1{
-    color: #63a908;
-    text-align: center;
-    font-size: 50px;
-    /* text-shadow: #ffffff 1px 0 10px; */
-}
-
-h2{
-    align-items: center;
-    color: #e6e6e6;
-    text-align: center;
-    /* text-shadow: #ffffff 1px 0 10px; */
-    font-size: 25px;
-    width: 400px
 }
 
 img{
