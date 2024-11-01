@@ -7,20 +7,27 @@ body{
 
 h1{
     color: #63a908;
-    text-align: center;
     font-size: 50px;
     /* text-shadow: #ffffff 1px 0 10px; */
 }
 
 h2{
-    align-items: center;
-    text-align: center ;
     color: #e6e6e6;
-    text-align: center;
     /* text-shadow: #ffffff 1px 0 10px; */
     font-size: 25px;
-    width: 400px
 }
+
+.column {
+    float: left;
+  }
+  
+  .left {
+    width: 55%;
+  }
+  
+  .right {
+    width: 45%;
+  }
 
 .navigation
 {
